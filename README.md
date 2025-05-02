@@ -1,120 +1,66 @@
-### NAME : Yogeshvar M
-### REG NO : 212222230180
-## EX-2-prompt-engineering-Comparative Analysis of different types of Prompting patterns and explain with Various Test scenerios
+# EXP 5: Comparative Analysis of Naïve Prompting versus Basic Prompting Using ChatGPT Across Various Test Scenarios
+# Aim:
+To test how ChatGPT responds to naïve prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios, analyzing the quality, accuracy, and depth of the generated responses.
 
-## Experiment:
-Test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios. 
-     Analyze the quality, accuracy, and depth of the generated responses.
+# Algorithm: 
+## 1. Define Prompt Types:
 
-# OUTPUT :
-### Prompt Type 1: Intuition Behind Prompts
-### Prompt A (Broad):
-"Tell me something interesting."
+* Naïve Prompts are vague and lack direction, e.g., “Tell me something.”
 
-#### ChatGPT:
-Two hearts pump blood to the gills, one to the body—and they stop the body-pumping heart when they swim.
+* Basic Prompts are specific, structured, and instructive, e.g., “Write a three-sentence summary of Newton’s laws for high school students.”
 
-#### Gemini:
-Bees make honey, and its low water content and acidity prevent bacteria from thriving, allowing it to last indefinitely if stored properly.
+## 2. Select Test Scenarios:
 
-### Prompt B (Refined):
-"Explain the intuition behind how prompts work in AI language models with two simple examples."
+* Creative storytelling
 
-#### ChatGPT:
-Prompts guide the AI on what to say by giving it context.
+* Factual question answering
 
-Example 1:
-Prompt: “Translate to French: Good morning” → AI sees “Translate” and gives “Bonjour” — it's following the instruction.
+* Concept summarization
 
-Example 2:
-Prompt: “Once upon a time,” → AI continues with a story — it sees this as a storytelling cue. Prompts shape the AI’s response style and content.
+* Giving practical advice
 
-#### Gemini:
-AI language models predict the next words. Prompts provide context to guide this prediction.
+* Technical explanation
 
-Example 1:
-Prompt: "The sky is..." Intuition: The model predicts words commonly following "The sky is," like "blue" or "cloudy."
+## 3. Create Prompt Pairs:
 
-Example 2:
-Prompt: "Translate 'hello' to French." Intuition: The model recognizes the translation task and predicts "bonjour."
+* For each scenario, formulate both a naïve and a basic version targeting the same goal.
 
-### Prompt Type 2: Straightforward Prompts
-### Prompt A (Broad): "Rain."
+## 4. Run and Record Outputs:
 
-#### ChatGPT:
-Rain forms when moist air cools, condenses into droplets, and falls from clouds due to gravity
+* Input both prompts into ChatGPT and record the respective responses.
 
-#### Gemini:
-Water falling from clouds.
+## 5. Analyze and Compare:
 
-### Prompt B (Refined):
-"Explain what causes rainfall in 1-2 sentences."
+* Evaluate each pair based on:
 
-#### ChatGPT:
-Rainfall happens when warm, moist air rises, cools, and condenses into water droplets in clouds. When these droplets grow heavy enough, they fall as rain.
+* Quality (fluency, engagement)
 
-#### Gemini:
-Warm, moist air rises, cools, and condenses into water droplets or ice crystals, forming clouds. When these droplets or crystals become too heavy, they fall to the Earth as rain.
+* Accuracy (factual correctness)
 
-### Prompt Type 3: Tabular Format Prompting
-### Prompt A (Broad):
-"Tell me different types of energy."
+* Depth (level of insight or elaboration)
 
-#### ChatGPT:
-Kinetic Energy,Potential Energy,Thermal (Heat) Energy,Chemical Energy,Electrical Energy,Nuclear Energy,Light (Radiant) Energy,Sound Energy
+## Observations and Analysis:
+1. In the creative storytelling task, the naïve prompt like “Tell me a story” generated a simple and generic narrative. However, the basic prompt “Write a short story about a rabbit who overcomes its fear of the dark” led to a well-structured and meaningful story with a moral.
 
-#### Gemini:
-There are many types of energy, broadly categorized as kinetic (energy of motion) and potential (stored energy).
+2. When answering a factual question, the prompt “What is gravity?” resulted in a textbook-style response, while “Explain gravity to a 10-year-old using simple examples” produced a clearer and more relatable answer that matched the intended audience.
 
-Examples include:
-Kinetic: Motion, thermal (heat), radiant (light), electrical, sound.
-Potential: Chemical, gravitational, nuclear, elastic, mechanical.
-Energy sources can also be classified as renewable (naturally replenished, like solar, wind, and hydro) and non-renewable (finite resources, like fossil fuels and nuclear).
+3. For summarizing a concept, the naïve prompt “Summarize AI” led to an overly general and unfocused summary. In contrast, “Summarize the impact of AI on healthcare in simple terms” yielded a concise and relevant explanation targeted to a specific domain.
 
-### Prompt B (Refined):
-"List 3 types of energy in a table with their definition and example."
+4. In the advice-giving scenario, a naïve request like “Give me life advice” triggered vague, philosophical content. A basic prompt such as “Give three practical tips for a college student managing studies and a part-time job” produced actionable and focused advice.
 
-#### ChatGPT:
-Kinetic Energy	Energy of motion.	A moving car.
-Potential Energy	Stored energy due to position or condition.	A stretched rubber band.
-Thermal Energy	Energy from the movement of particles in matter.	Boiling water.
-#### Gemini:
-Kinetic	Energy of motion	A moving car
-Potential	Stored energy due to position	A ball held at a height
-Thermal	Energy due to temperature	Heat from a stove burner
-### Prompt Type 4: Comparative Analysis Prompt
-### Prompt A (Broad):
-"Compare things."
+5. Lastly, in the technical explanation task, a naïve “Explain Python” prompt gave a list of features. But a basic prompt like “Explain Python to a beginner with no programming experience” delivered a friendly, step-by-step introduction.
 
-#### ChatGPT:
-Here are some comparisons:
+## Findings:
+ * Basic prompts consistently resulted in higher quality, more relevant, and deeper responses.
 
-1. Apples vs. Oranges
-o Apples: Crisp, sweet or tart, commonly eaten raw. o Oranges: Juicy, tangy, mostly consumed as juice or fresh.
+ * Naïve prompts only worked well when no clear outcome or structure was required.
 
-2. Cars vs. Bicycles
-o Cars: Faster, require fuel, can travel long distances. o Bicycles: Slower, eco-friendly, require physical effort.
+ * Tasks involving teaching, storytelling, or complex reasoning significantly benefited from refined prompting.
 
-#### Gemini:
-Apples are sweet and crunchy, while oranges are citrusy and juicy. Both are fruits but offer different tastes and textures.
+ * This experiment shows that prompt clarity and specificity are crucial for optimizing ChatGPT’s capabilities.
 
-### Prompt B (Refined):
-" Compare the effectiveness of rule-based systems and machine learning models in solving complex problems”
+# OUTPUT:
+All prompt-response pairs were tested and documented. The differences between naïve and basic prompting were clearly observed across all tasks.
 
-#### ChatGPT:
-Rule-based systems use predefined rules, making them effective for simple tasks but struggle with complexity and adaptability. They require manual updates for maintenance. Machine learning models, on the other hand, learn from data, handle complex problems better, and improve over time with more data. They are more adaptable and typically perform better in uncertain scenarios.
-
-#### Gemini:
-Rule-based systems excel in well-defined problems with clear, logical rules, offering transparency and consistency. However, they struggle with complex, dynamic situations requiring adaptation and learning. Machine learning models, on the other hand, learn from data to solve intricate problems, improve with more data, and handle ambiguity, but can be less transparent and require significant data for training.
-
-## RESULT:
-Based on the analysis of quality, accuracy, and depth, both AI models perform well, with slight differences:
-1. Quality:
-Chat GPT provides more detailed explanations, while Gemini is generally more concise and focused.
-
-2. Accuracy:
-Complex scenarios tend to be handled more accurately by ChatGPT, whereas simpler, straightforward tasks are more precisely handled by Gemini
-
-3. Depth:
-Gemini offers deeper responses in unstructured or broad prompts, while ChatGPT is more efficient in structured, refined prompts. Overall, the best model depends on user preference for detail, clarity, and the complexity of the prompt. Gemini is the best choice for users seeking more depth and detailed explanations
-
+# RESULT: 
+The prompt for the above said problem executed successfully
