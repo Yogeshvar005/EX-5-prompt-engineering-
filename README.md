@@ -1,31 +1,120 @@
+### NAME : Yogeshvar M
+### REG NO : 212222230180
+## EX-2-prompt-engineering-Comparative Analysis of different types of Prompting patterns and explain with Various Test scenerios
 
+## Experiment:
+Test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios. 
+     Analyze the quality, accuracy, and depth of the generated responses.
 
-# EXP 5: Comparative Analysis of Naïve Prompting versus Basic Prompting Using ChatGPT Across Various Test Scenarios
-# Aim: To test how ChatGPT responds to naïve prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios, analyzing the quality, accuracy, and depth of the generated responses.
-# Algorithm: 
-Define the Two Prompt Types:
-Naïve Prompts: Broad, vague, or open-ended prompts with little specificity.
-Basic Prompts: Clear, detailed, and structured prompts that give specific instructions or context to guide the model.
-Prepare Multiple Test Scenarios:
-Select various scenarios such as:
-Generating a creative story.
-Answering a factual question.
-Summarizing an article or concept.
-Providing advice or recommendations.
-Or Any other test scenario
-For each scenario, create both a naïve and a basic prompt. Ensure each pair of prompts targets the same task but with different levels of structure.
-Run Experiments with ChatGPT:
-Input the naïve prompt for each scenario and record the generated response.
-Then input the corresponding basic prompt and capture that response.
-Repeat this process for all selected scenarios to gather a full set of results.
-Evaluate Responses : 
-	Compare how ChatGPT performs when given naïve versus basic prompts and analyze the output based on Quality,Accuracy and Depth. Also analyse does ChatGPT consistently provide better results with basic prompts? Are there scenarios where naïve prompts work equally well?
-Deliverables:
-A table comparing ChatGPT's responses to naïve and basic prompts across all scenarios.
-Analysis of how prompt clarity impacts the quality, accuracy, and depth of ChatGPT’s outputs.
-Summary of findings with insights on how to structure prompts for optimal results when using ChatGPT.
+# OUTPUT :
+### Prompt Type 1: Intuition Behind Prompts
+### Prompt A (Broad):
+"Tell me something interesting."
 
+#### ChatGPT:
+Two hearts pump blood to the gills, one to the body—and they stop the body-pumping heart when they swim.
 
-# OUTPUT
+#### Gemini:
+Bees make honey, and its low water content and acidity prevent bacteria from thriving, allowing it to last indefinitely if stored properly.
 
-# RESULT: The prompt for the above said problem executed successfully
+### Prompt B (Refined):
+"Explain the intuition behind how prompts work in AI language models with two simple examples."
+
+#### ChatGPT:
+Prompts guide the AI on what to say by giving it context.
+
+Example 1:
+Prompt: “Translate to French: Good morning” → AI sees “Translate” and gives “Bonjour” — it's following the instruction.
+
+Example 2:
+Prompt: “Once upon a time,” → AI continues with a story — it sees this as a storytelling cue. Prompts shape the AI’s response style and content.
+
+#### Gemini:
+AI language models predict the next words. Prompts provide context to guide this prediction.
+
+Example 1:
+Prompt: "The sky is..." Intuition: The model predicts words commonly following "The sky is," like "blue" or "cloudy."
+
+Example 2:
+Prompt: "Translate 'hello' to French." Intuition: The model recognizes the translation task and predicts "bonjour."
+
+### Prompt Type 2: Straightforward Prompts
+### Prompt A (Broad): "Rain."
+
+#### ChatGPT:
+Rain forms when moist air cools, condenses into droplets, and falls from clouds due to gravity
+
+#### Gemini:
+Water falling from clouds.
+
+### Prompt B (Refined):
+"Explain what causes rainfall in 1-2 sentences."
+
+#### ChatGPT:
+Rainfall happens when warm, moist air rises, cools, and condenses into water droplets in clouds. When these droplets grow heavy enough, they fall as rain.
+
+#### Gemini:
+Warm, moist air rises, cools, and condenses into water droplets or ice crystals, forming clouds. When these droplets or crystals become too heavy, they fall to the Earth as rain.
+
+### Prompt Type 3: Tabular Format Prompting
+### Prompt A (Broad):
+"Tell me different types of energy."
+
+#### ChatGPT:
+Kinetic Energy,Potential Energy,Thermal (Heat) Energy,Chemical Energy,Electrical Energy,Nuclear Energy,Light (Radiant) Energy,Sound Energy
+
+#### Gemini:
+There are many types of energy, broadly categorized as kinetic (energy of motion) and potential (stored energy).
+
+Examples include:
+Kinetic: Motion, thermal (heat), radiant (light), electrical, sound.
+Potential: Chemical, gravitational, nuclear, elastic, mechanical.
+Energy sources can also be classified as renewable (naturally replenished, like solar, wind, and hydro) and non-renewable (finite resources, like fossil fuels and nuclear).
+
+### Prompt B (Refined):
+"List 3 types of energy in a table with their definition and example."
+
+#### ChatGPT:
+Kinetic Energy	Energy of motion.	A moving car.
+Potential Energy	Stored energy due to position or condition.	A stretched rubber band.
+Thermal Energy	Energy from the movement of particles in matter.	Boiling water.
+#### Gemini:
+Kinetic	Energy of motion	A moving car
+Potential	Stored energy due to position	A ball held at a height
+Thermal	Energy due to temperature	Heat from a stove burner
+### Prompt Type 4: Comparative Analysis Prompt
+### Prompt A (Broad):
+"Compare things."
+
+#### ChatGPT:
+Here are some comparisons:
+
+1. Apples vs. Oranges
+o Apples: Crisp, sweet or tart, commonly eaten raw. o Oranges: Juicy, tangy, mostly consumed as juice or fresh.
+
+2. Cars vs. Bicycles
+o Cars: Faster, require fuel, can travel long distances. o Bicycles: Slower, eco-friendly, require physical effort.
+
+#### Gemini:
+Apples are sweet and crunchy, while oranges are citrusy and juicy. Both are fruits but offer different tastes and textures.
+
+### Prompt B (Refined):
+" Compare the effectiveness of rule-based systems and machine learning models in solving complex problems”
+
+#### ChatGPT:
+Rule-based systems use predefined rules, making them effective for simple tasks but struggle with complexity and adaptability. They require manual updates for maintenance. Machine learning models, on the other hand, learn from data, handle complex problems better, and improve over time with more data. They are more adaptable and typically perform better in uncertain scenarios.
+
+#### Gemini:
+Rule-based systems excel in well-defined problems with clear, logical rules, offering transparency and consistency. However, they struggle with complex, dynamic situations requiring adaptation and learning. Machine learning models, on the other hand, learn from data to solve intricate problems, improve with more data, and handle ambiguity, but can be less transparent and require significant data for training.
+
+## RESULT:
+Based on the analysis of quality, accuracy, and depth, both AI models perform well, with slight differences:
+1. Quality:
+Chat GPT provides more detailed explanations, while Gemini is generally more concise and focused.
+
+2. Accuracy:
+Complex scenarios tend to be handled more accurately by ChatGPT, whereas simpler, straightforward tasks are more precisely handled by Gemini
+
+3. Depth:
+Gemini offers deeper responses in unstructured or broad prompts, while ChatGPT is more efficient in structured, refined prompts. Overall, the best model depends on user preference for detail, clarity, and the complexity of the prompt. Gemini is the best choice for users seeking more depth and detailed explanations
+
